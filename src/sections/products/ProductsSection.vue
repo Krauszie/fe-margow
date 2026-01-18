@@ -55,6 +55,3 @@ import { useProductsQuery } from "./queries/useProductsQuery";
 
 const { data: products, isLoading, isError, refetch } = useProductsQuery();
 </script>
-
-# Add this to .gitignore
-.env
